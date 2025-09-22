@@ -5,7 +5,7 @@ import { placeholder } from "../utils/image";
 interface CharacterCardProps {
   id: number;
   name: string;
-  image?: any;
+  image: any;
   height: string;
   mass: string;
   gender: string;
@@ -55,3 +55,4 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
+
